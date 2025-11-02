@@ -24,8 +24,9 @@ Follow the folders in order, starting with the fundamental problem Pydantic solv
 | **`01_basics`** | `BaseModel` (The Blueprint) | **The "Before vs. After":** Understanding why raw dictionaries crash your program and how Pydantic instantly fixes it. |
 | **`02_constraints`** | `Field` | **Data Quality Guardrails:** Enforcing business logic like probability must be $\le 1.0$ or a text prompt cannot be empty. |
 | **`03_complex_data`**| Nested Models | **LLM Entity Extraction:** Structuring and validating complex, hierarchical JSON output (e.g., a list of people, each with a confidence score). |
-| **`05_output_export`** | Data Export (`.model_dump()`) | **API Response Prep:** Converting your clean Pydantic object back into a standard `dict` or `JSON` string for API responses. |
 | **`04_config_settings`**| `BaseSettings` | **Production Readiness:** Securely loading and validating API keys and configuration from environment variables. |
+| **`05_output_export`** | Data Export (`.model_dump()`) | **API Response Prep:** Converting your clean Pydantic object back into a standard `dict` or `JSON` string for API responses. |
+
 
 ### ⚙️ Setup
 
